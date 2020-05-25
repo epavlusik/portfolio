@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" content="Erik Pavlusik, Portfolio, Web development, projects">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav" id="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i> <!--Hambac -->
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="index.html" class="logo"> <img src="images/logo.png" alt=""></a>
+                <ul class="nav-list">
+                    <li class="nav-item-about">
+                        <a href="#About" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item-port">
+                        <a href="#Portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item-cont">
+                        <a href="#Contact" class="nav-link">Contact</a>
+                    </li>                 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- About Section -->
+    <section class="Main" id="Main">
+        <div class="container">
+            <h1>Front End</h1>
+        </div>
+    </section>
+    <section class="About" id="About">
+        <div class="container">
+             
+        <div class="infobox">
+        <div class="flexelement">
+        <img src="images/erik_bio.jpg" alt="">
+        </div>
+        <div class="flexelement"> 
+            <h2>About Me</h2>     
+         <p>There are two main elements that could describe me. I am passionate about technology
+             and I like to build or create since I was a child. Creating websites is activity, where I 
+             can express my inner artist. The other important fact about me is that I am perfectionist when
+             it comes to my work. I am willing to learn and to become better at what I enjoy to do. In terms
+             of cooperation I am friendly and I have deep respect for diversity of human souls and opinions.
+        </p>
+        </div>
+        </div>
+        </div>
+        <!-- About Text -->
+        </div>
+    </section>
+    <!-- Portfolio Section-->
+    <section class="Portfolio" id="Portfolio">
+        <!-- <div class="container"> -->
+          <div class="Project-box"> <!--Erik Pavlusik personal Website-->
+            <h2> 
+                <span class="project">Project 1:</span> Personal Website</h2>
+            <img src="images/erik.jpg" alt="">
+            <p>This website is using only HTML5 and CSS3. It is my personal website presenting
+                my older programming projects and art. It was also first website that was hosted on Github pages and
+                connected with domain.
+            </p>
+            <button class="btn-live" onclick="location.href='https://erikpavlusik.com';">Live</button>
+            <button class="btn-code" onclick="location.href='https://github.com/epavlusik/erikpavlusikweb';">View Code</button>
+          </div>
+          <div class="Project-box"> <!--Above Us Novel-->
+            <h2>
+                <span class="project">Project 2:</span> Above Us - Graphic novel</h2>
+            <img src="images/aboveus.jpg" alt="">
+            <p>I had vision about transforming my graphic novel into digital form with interactive gui.
+                I used canvas element that offers many interesting possibilities. For effective displaying 
+                of text-bubbles I used parsed JSON object.
+            </p>
+                <button class="btn-live" onclick="location.href='https://aboveusnovel.com/';">Live</button>
+                <button class="btn-code" onclick="location.href='https://github.com/epavlusik/aboveusnovel';">View Code</button>
+            </div>
+           <div class="Project-box"> <!--Anita Pavlusikova Gallery-->
+            <h2>
+                <span class="project">Project 3:</span> Art Gallery</h2>
+            <img src="images/anitgallery.jpg" alt="">
+            <p>Gallery presenting art works of by girlfriend was project that taught me a lot.
+                I have no problem to admit that some of the elements were influenced by useful tutorial,
+                but I learned here wide range of modern methods of making good looking website. 
+            </p>
+                <button class="btn-live" onclick="location.href='https://anitapavlusikova.com';">Live</button>
+                <button class="btn-code" onclick="location.href='https://github.com/epavlusik/Anitapavlusikovawebsite';">View Code</button>
+            </div>
+         </div>
+        <!-- </div> -->
+    </section>
+    <!-- Contact-->
+    <footer id="Contact">
+        <div class="container">
+            <div class="jump-top">
+                <a href="#nav"> <img src="images/up.png" alt=""> </a>
+            </div>
+            <div class="f-content">
+                <h4>Contact Me</h4>
+                <p>If you have any questions, do not hesitate to contact me, here is my email address: epavlusik@gmail.com</p>
+               <div class="social-media">
+                <h4>You can find me:</h4>	
+                   <ul class="social-icons">
+                    <li>
+                        <a href="https://www.facebook.com/cupacles/"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/erik-pavlusik-ab4988129/"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/epavlusik/"><i class="fab fa-github"></i></a>
+                    </li>
+                   </ul>
+               </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
