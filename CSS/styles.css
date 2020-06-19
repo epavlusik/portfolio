@@ -314,6 +314,7 @@ footer {
     .Project-box {
         text-align: center;
         padding: 10px;
+        flex:1;
         
     }
     .social-media {
