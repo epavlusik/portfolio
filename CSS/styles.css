@@ -307,9 +307,9 @@ footer {
     .flexelement img{
         min-width: 200px;
     }
-    .Portfolio {
+    .column {
         display: flex;
-        justify-content: space-around;       
+        justify-content: space-around; 
     }
     .Project-box {
         text-align: center;
